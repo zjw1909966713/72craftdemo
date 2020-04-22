@@ -177,6 +177,15 @@ public class DemoConroller {
         return "test4";
 
     }
+    private String test5(){
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "test4";
+
+    }
 
     private BaseJsonRst deomoTest(){
         try {
