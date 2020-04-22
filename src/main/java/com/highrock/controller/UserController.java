@@ -46,7 +46,7 @@ public class UserController {
         BaseJsonRst ret=new BaseJsonRst();
         ret.setSuccess(true);
         ret.setMessage("succffess");
-        User user=new User(id,"zjw",444,"132456",new Date());
+        User user=new User(id,"zjw",444,"132456",new Date(),new Date());
         ret.setResult(user);
         return ret;
     }

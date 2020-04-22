@@ -20,5 +20,6 @@ public class User {
     private int age;
     private String password;
     private Date ctm;
+    private Date utm;
 
 }
