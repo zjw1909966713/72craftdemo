@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * 该工具类是为了获取application.yml的属性值，名称必须完全一样，
  */
 @Component
-@PropertySource("application.yml")
+@PropertySource("classpath:application.yml")
 @ConfigurationProperties
 public class PropertiesUtil {
 

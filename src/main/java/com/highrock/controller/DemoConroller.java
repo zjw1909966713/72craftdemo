@@ -10,10 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.Collectors;
 
@@ -25,6 +22,7 @@ public class DemoConroller {
 
     //定义资源的总数量
     Semaphore semaphore=new Semaphore(1);
+
 
 
 
@@ -123,6 +121,9 @@ public class DemoConroller {
 
         return BaseJsonRst.success(String.valueOf(time),list);
     }
+
+
+
 
 
 
