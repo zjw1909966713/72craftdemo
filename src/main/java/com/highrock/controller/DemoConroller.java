@@ -188,16 +188,6 @@ public class DemoConroller {
 
     }
 
-    private String test6(){
-        try {
-            Thread.sleep(100);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        return "test6";
-
-    }
-
     private BaseJsonRst deomoTest(){
         try {
             Thread.sleep(100);
