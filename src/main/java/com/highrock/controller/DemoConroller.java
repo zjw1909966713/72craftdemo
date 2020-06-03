@@ -184,7 +184,17 @@ public class DemoConroller {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        return "test4";
+        return "test5";
+
+    }
+
+    private String test6(){
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "test6";
 
     }
 
