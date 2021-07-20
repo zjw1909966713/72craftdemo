@@ -1,5 +1,5 @@
 server:
-  port: 8090
+  port: 8091
 
 
 stripe_api_key: sk_test_EJqVAJuWv4zDOfnhLLtSCUdhffffggggggggg7777   #stripe apikey
@@ -31,7 +31,14 @@ spring:
     cache-duration: 3600
     fallback-to-system-locale: true
 
-  #配置日志
+
+
+  rabbitmq:
+    host: 172.16.1.85
+    port: 5672
+    username: highrock
+    password: Tianshi@18
+#配置日志
 logging:
   level:
     com.highrock:  debug
